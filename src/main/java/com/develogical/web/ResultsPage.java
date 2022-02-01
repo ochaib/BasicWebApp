@@ -23,6 +23,6 @@ public class ResultsPage extends HtmlPage {
             writer.println("<p>" + answer + "</p>");
         }
 
-        writer.println("<p><a href=\"/\">Back to Search Page</a></p>");
+        writer.println("<p><a href=\"/\">Back to Shearch Page</a></p>");
     }
 }

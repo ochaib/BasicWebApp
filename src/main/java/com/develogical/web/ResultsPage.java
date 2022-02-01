@@ -17,7 +17,7 @@ public class ResultsPage extends HtmlPage {
 
         if (answer == null || answer.isEmpty()) {
             writer.println("<h1>Sorry</h1>");
-            writer.print("<p>Sorry, we didn't understand <em>" + query + "</em></p>");
+            writer.print("<p>Sorry mate, we didn't understand <em>" + query + "</em></p>");
         } else {
             writer.println("<h1>" + query + "</h1>");
             writer.println("<p>" + answer + "</p>");
